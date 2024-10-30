@@ -1,0 +1,14 @@
+.wrapper {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px;
+  width: 100%;
+  height: var(--header_height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 100%;
+  width: 1150px;
+  background-color: #ccc;
+}

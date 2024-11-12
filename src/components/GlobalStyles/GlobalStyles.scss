@@ -5,11 +5,24 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
-
+  background-color: var(--primary_background);
   text-rendering: optimizeSpeed;
+  color: var(--text_color);
 }
 
 :root {
   --header_height: 60px;
+  --primary_background: rgb(18, 18, 18);
+  --text_color: #333;
 }
-$header_height: 60px;
+
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+a[href] {
+  text-decoration: none;
+  color: var(--text_color);
+}

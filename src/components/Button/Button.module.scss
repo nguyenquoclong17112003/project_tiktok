@@ -48,6 +48,16 @@
   }
 }
 
+.block {
+  background-color: #252525;
+  color: var(--white);
+  font-weight: 500;
+
+  &:hover {
+    background-color: #1e1e1e;
+  }
+}
+
 .outline {
   background-color: rgba(255, 255, 255, 0.08);
   color: var(--primary);
@@ -62,4 +72,9 @@
 .icon + .title,
 .title + .icon {
   margin-left: 8px;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
 }

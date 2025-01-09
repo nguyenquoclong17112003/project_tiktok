@@ -12,7 +12,7 @@
   left: 0;
   top: 0;
   right: 0;
-  z-index: 99999999;
+  z-index: 1000;
 }
 
 .inner {
@@ -21,6 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo {
@@ -114,4 +115,31 @@
 
 .actions {
   display: flex;
+  align-items: center;
+}
+
+.more-btn {
+  font-size: 2rem;
+  background-color: transparent;
+  margin-left: 16px;
+  padding: 0px 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.action-btn {
+  background-color: transparent;
+  color: #252525;
+  font-size: 2.3rem;
+  padding: 4px 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=Header.module.css.map */

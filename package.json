@@ -12,12 +12,19 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@tippyjs/react": "^4.2.6",
+    "babel-core": "^6.26.3",
     "classnames": "^2.5.1",
+    "htmling": "^0.0.8",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
+    "squirrelly": "^9.1.0",
+    "teacup": "^2.0.0",
+    "twing": "^7.1.0-beta.2",
+    "vash": "^0.13.0",
+    "vm-browserify": "^1.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,10 +52,14 @@
     ]
   },
   "devDependencies": {
+    "assert": "^2.1.0",
     "babel-plugin-module-resolver": "^5.0.2",
     "customize-cra": "^1.0.0",
+    "path-browserify": "^1.0.1",
     "react-app-rewired": "^2.2.1",
     "sass": "^1.80.3",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
     "webpack": "^5.93.0"
   }
 }

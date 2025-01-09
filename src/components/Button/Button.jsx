@@ -11,6 +11,7 @@ export default function Button({
   primary = false,
   outline = false,
   disable = false,
+  block = false,
   rounded = false,
   leftIcon,
   rightIcon,
@@ -25,6 +26,7 @@ export default function Button({
     outline,
     disable,
     rounded,
+    block,
   });
 
   // todo delete event listeners when btn is disabled
